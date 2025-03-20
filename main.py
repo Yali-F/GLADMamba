@@ -72,10 +72,8 @@ if __name__ == '__main__':
     aucs = []
     for trial in range(args.num_trial):
         setup_seed(trial + 1)
-
-        if args.exp_type == 'oodd':
-            dataloader, dataloader_test, meta = get_ood_dataset(args)
-        elif args.exp_type == 'ad' and not args.DS.startswith('Tox21'):
+        
+        if args.exp_type == 'ad' and not args.DS.startswith('Tox21'):
             dataloader, dataloader_test, meta = get_ad_dataset_TU(args, splits[trial])
 
         dataset_num_features = meta['num_feat']
