@@ -1,0 +1,1 @@
+python main.py -exp_type ad -DS IMDB-BINARY -hidden_dim 32 -num_epoch 1000 -alpha 0.2 -num_layer 4 -GNN_Encoder GCN -graph_level_pool global_mean_pool -eval_freq 5 -d_state 8 -dt_rank 3 -d_conv 3 -l 4         

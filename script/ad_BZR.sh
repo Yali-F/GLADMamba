@@ -1,0 +1,1 @@
+python main.py -exp_type ad -DS BZR -rw_dim 16 -dg_dim 16 -hidden_dim 16 -num_epoch 500 -alpha 0.8 -num_layer 5 -GNN_Encoder GCN -graph_level_pool global_mean_pool -eval_freq 5 -d_state 2 -dt_rank 2 -d_conv 2        
