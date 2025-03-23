@@ -11,7 +11,7 @@ This code requires the following dependencies:
 - NetworkX == 2.7.1
 - Einops == 0.8.0 
 
-## Hardware Configuration
+## Hardware Infrastructures
 The hardware configuration used for the implementation on the Linux server includes the following:
 - **CPU**: Intel(R) Xeon(R) Gold 5220 CPU @ 2.20GHz
 - **GPU**: NVIDIA L40 (48GB), NVIDIA A40 (48GB)
